@@ -5,7 +5,7 @@ using Volo.Abp.EntityFrameworkCore.Modeling;
 
 namespace MyCompanyName.MyProjectName.EF;
 
-public class TaskyDbContext : AbpDbContext<TaskyDbContext>
+public class TaskyDbContext : AbpDbContext<TaskyDbContext>, ITaskyDbContext
 {
     public DbSet<TaskyItem> Taskys { get; set; }
     

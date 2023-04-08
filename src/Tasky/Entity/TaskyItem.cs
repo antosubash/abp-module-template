@@ -5,7 +5,6 @@ namespace MyCompanyName.MyProjectName.Entity;
 
 public class TaskyItem : AggregateRoot<Guid>, IMultiTenant
 {
-    public string Text { get; set; } = null!;
-    public bool IsCompleted { get; set; }
+    public string Name { get; set; } = null!;
     public Guid? TenantId { get; }
 }
