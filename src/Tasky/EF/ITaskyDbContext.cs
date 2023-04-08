@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using MyCompanyName.MyProjectName.Entity;
+
 namespace MyCompanyName.MyProjectName.EF;
 
 public interface ITaskyDbContext

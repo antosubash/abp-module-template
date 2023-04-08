@@ -7,8 +7,8 @@ namespace MyCompanyName.MyProjectName.EF;
 
 public class TaskyDbContext : AbpDbContext<TaskyDbContext>, ITaskyDbContext
 {
-    public DbSet<TaskyItem> Taskys { get; set; }
-    
+    public DbSet<TaskyItem> TaskyItems { get; set; }
+
     public TaskyDbContext(DbContextOptions<TaskyDbContext> options) : base(options)
     {
     }
