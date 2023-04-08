@@ -1,8 +1,8 @@
-﻿using Tasky.Localization;
+﻿using MyCompanyName.MyProjectName.Localization;
 using Volo.Abp.Authorization.Permissions;
 using Volo.Abp.Localization;
 
-namespace Tasky.Permission;
+namespace MyCompanyName.MyProjectName.Permission;
 
 public class TaskyPermissionDefinitionProvider : PermissionDefinitionProvider
 {

@@ -1,7 +1,7 @@
 ﻿using Volo.Abp.Domain.Entities;
 using Volo.Abp.MultiTenancy;
 
-namespace Tasky.Entity;
+namespace MyCompanyName.MyProjectName.Entity;
 
 public class TaskyItem : AggregateRoot<Guid>, IMultiTenant
 {

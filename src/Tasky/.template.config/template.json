@@ -1,0 +1,29 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Anto Subash",
+    "classifications": [
+        "Module",
+        "ABP",
+        "ASP.NET Core"
+    ],
+    "identity": "Anto.Abp.Module.Template",
+    "sourceName": "Tasky",
+    "name": "An ABP Module Template",
+    "description": "An ABP Module Template",
+    "tags": {
+        "language": "C#",
+        "type": "item"
+    },
+    "shortName": "abp-module",
+    "preferNameDirectory": true,
+    "symbols": {
+        "namespace": {
+            "type": "parameter",
+            "isRequired": true,
+            "description": "The namespace for the project.",
+            "datatype": "string",
+            "replaces": "MyCompanyName.MyProjectName",
+            "defaultValue": "MyCompanyName.MyProjectName"
+        }
+    }
+}

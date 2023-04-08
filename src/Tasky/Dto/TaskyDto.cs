@@ -1,6 +1,6 @@
 ﻿using Volo.Abp.Application.Dtos;
 
-namespace Tasky.Dto;
+namespace MyCompanyName.MyProjectName.Dto;
 
 public class TaskyItemDto : EntityDto<Guid>
 {

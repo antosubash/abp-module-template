@@ -1,7 +1,7 @@
-﻿using Tasky.Dto;
-using Tasky.Entity;
+﻿using MyCompanyName.MyProjectName.Dto;
+using MyCompanyName.MyProjectName.Entity;
 
-namespace Tasky.Profile;
+namespace MyCompanyName.MyProjectName.Profile;
 
 public class TaskyAutoMapperProfile : AutoMapper.Profile
 {

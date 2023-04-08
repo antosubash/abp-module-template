@@ -1,5 +1,5 @@
-﻿using Tasky.EF;
-using Tasky.Localization;
+﻿using MyCompanyName.MyProjectName.EF;
+using MyCompanyName.MyProjectName.Localization;
 using Microsoft.Extensions.DependencyInjection;
 using Volo.Abp.AspNetCore.Mvc;
 using Volo.Abp.Autofac;
@@ -13,7 +13,7 @@ using Volo.Abp.Settings;
 using Volo.Abp.Validation.Localization;
 using Volo.Abp.VirtualFileSystem;
 
-namespace Tasky;
+namespace MyCompanyName.MyProjectName;
 
 [DependsOn(
     typeof(AbpAspNetCoreMvcModule),

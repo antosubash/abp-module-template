@@ -1,6 +1,6 @@
 ﻿using Volo.Abp.Features;
 
-namespace Tasky.Features;
+namespace MyCompanyName.MyProjectName.Features;
 
 public class TaskyItemDefinitionProvider : FeatureDefinitionProvider
 {

@@ -1,9 +1,9 @@
-﻿using Tasky.Entity;
+﻿using MyCompanyName.MyProjectName.Entity;
 using Microsoft.EntityFrameworkCore;
 using Volo.Abp.EntityFrameworkCore;
 using Volo.Abp.EntityFrameworkCore.Modeling;
 
-namespace Tasky.EF;
+namespace MyCompanyName.MyProjectName.EF;
 
 public class TaskyDbContext : AbpDbContext<TaskyDbContext>
 {

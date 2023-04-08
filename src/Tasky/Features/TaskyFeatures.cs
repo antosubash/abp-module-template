@@ -1,4 +1,4 @@
-namespace Tasky.Features;
+namespace MyCompanyName.MyProjectName.Features;
 
 public static class TaskyFeatures
 {
