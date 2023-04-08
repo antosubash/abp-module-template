@@ -10,6 +10,7 @@ This template is created for the following purposes:
 
 - To learn how to create Modules for the ABP Application.
 - A good starting point to compose a module with other Design Patterns.
+- Easy to understand and modify.
 
 ## How to use
 
