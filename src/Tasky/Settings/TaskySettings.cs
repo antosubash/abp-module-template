@@ -1,4 +1,4 @@
-namespace MyCompanyName.MyProjectName.Settings
+namespace Tasky.Settings
 {
     public static class TaskySettings
     {

@@ -1,4 +1,4 @@
-namespace MyCompanyName.MyProjectName.Permission;
+namespace Tasky.Permission;
 
 public static class TaskyPermissions
 {

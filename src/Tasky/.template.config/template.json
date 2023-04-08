@@ -15,15 +15,5 @@
         "type": "item"
     },
     "shortName": "abp-module",
-    "preferNameDirectory": true,
-    "symbols": {
-        "namespace": {
-            "type": "parameter",
-            "isRequired": true,
-            "description": "The namespace for the project.",
-            "datatype": "string",
-            "replaces": "MyCompanyName.MyProjectName",
-            "defaultValue": "MyCompanyName.MyProjectName"
-        }
-    }
+    "preferNameDirectory": true
 }

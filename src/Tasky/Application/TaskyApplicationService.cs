@@ -1,13 +1,13 @@
-﻿using MyCompanyName.MyProjectName.Dto;
-using MyCompanyName.MyProjectName.Entity;
+﻿using Tasky.Dto;
+using Tasky.Entity;
 using Microsoft.AspNetCore.Authorization;
 using Volo.Abp.Application.Services;
 using Volo.Abp.Domain.Repositories;
 using Volo.Abp.Features;
-using MyCompanyName.MyProjectName.Permission;
-using MyCompanyName.MyProjectName.Features;
+using Tasky.Permission;
+using Tasky.Features;
 
-namespace MyCompanyName.MyProjectName.Application;
+namespace Tasky.Application;
 
 [Authorize(TaskyPermissions.TaskyItem.Default)]
 [RequiresFeature(TaskyFeatures.MyFeature1.Name)]

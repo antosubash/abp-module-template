@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using MyCompanyName.MyProjectName.Entity;
+using Tasky.Entity;
 
-namespace MyCompanyName.MyProjectName.EF;
+namespace Tasky.EF;
 
 public interface ITaskyDbContext
 {

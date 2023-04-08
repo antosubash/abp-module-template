@@ -1,8 +1,8 @@
-﻿using MyCompanyName.MyProjectName.Entity;
+﻿using Tasky.Entity;
 using Microsoft.EntityFrameworkCore;
 using Volo.Abp.EntityFrameworkCore.Modeling;
 
-namespace MyCompanyName.MyProjectName.EF;
+namespace Tasky.EF;
 
 public static class TaskyDbContextModelCreatingExtensions
 {

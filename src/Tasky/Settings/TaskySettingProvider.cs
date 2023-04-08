@@ -1,6 +1,6 @@
 ﻿using Volo.Abp.Settings;
 
-namespace MyCompanyName.MyProjectName.Settings;
+namespace Tasky.Settings;
 
 public class TaskySettingProvider : SettingDefinitionProvider
 {

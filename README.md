@@ -23,7 +23,7 @@ dotnet new -i Anto.Abp.Module.Template
 Create a new project:
 
 ```bash
-dotnet new abp-module -n MyModuleName --namespace MyCompanyName.MyProjectName
+dotnet new abp-module -n MyModuleName
 ```
 
 ## Limitations

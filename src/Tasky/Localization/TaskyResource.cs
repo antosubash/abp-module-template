@@ -1,6 +1,6 @@
 ﻿using Volo.Abp.Localization;
 
-namespace MyCompanyName.MyProjectName.Localization;
+namespace Tasky.Localization;
 
 [LocalizationResourceName("Tasky")]
 public class TaskyResource
