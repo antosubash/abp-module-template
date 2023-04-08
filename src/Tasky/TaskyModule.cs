@@ -20,6 +20,7 @@ namespace MyCompanyName.MyProjectName;
     typeof(AbpAutofacModule),
     typeof(AbpAutoMapperModule),
     typeof(AbpEntityFrameworkCoreModule),
+    typeof(AbpLocalizationModule),
     typeof(AbpFeaturesModule),
     typeof(AbpSettingsModule)
 )]
